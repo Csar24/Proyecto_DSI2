@@ -1,0 +1,5 @@
+//SELECCIONAR LAS ACTIVIDADES DE UNA MATERIA
+SELECT id_actividad, nombre_actividad, ponderacion FROM actividad a, grado_materia gm WHERE a.id_grado_materia = gm.id_grado_materia AND gm.id_grado_materia =
+
+//SELECCIONAR LA NOTA OBTENIDA
+SELECT a.id_actividad, nombre_actividad, ponderacion, fecha, nota, id_alumno FROM actividad a, grado_materia gm, nota n, detalle_nota dn WHERE a.id_grado_materia = gm.id_grado_materia AND a.id_actividad = n.id_actividad AND n.id_nota = dn.id_nota AND gm.id_grado_materia =

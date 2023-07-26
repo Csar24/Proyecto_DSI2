@@ -1,0 +1,2 @@
+ErrorDocument 404 http://localhost/notas/404.php
+DirectoryIndex login.php
