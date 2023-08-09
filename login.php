@@ -26,8 +26,8 @@
                         
                             <div class="card col-lg-3 ">
                                 <div class="p-5" style="width: 100%;">
-                                    <div class="d-flex justify-content-center">
-                                    <img src="img/logo.png" alt="logo" style="width:60%;">
+                                    <div class="d-flex justify-content-center ">
+                                        <img src="img/logo_Escolar.png" alt="logo" style="width:60%;margin:1rem;">
                                     </div>
                                     
                                     <?php include("controllers/login.php"); ?>
