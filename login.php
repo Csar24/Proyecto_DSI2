@@ -20,25 +20,16 @@
 
 </head>
 
-<body style="background-image: url('img/fondo.jpg'); background-repeat: no-repeat; background-attachment: fixed;background-size: cover;">
+<body class="bg-info d-flex justify-content-center align-items-center vh-100">
 
-    <div class="container">
-
-        <!-- Outer Row -->
-        <div class="row justify-content-center align-items-center vh-100">
-
-            <div class="col-xl-10 col-lg-12 col-md-9">
-
-                <div class="o-hidden border-0 shadow-lg my-5">
-                    <div class="p-0">
-                        <!-- Nested Row within Card Body -->
-                        <div class="row">
-                            <div class="col-lg-3"></div>
-                            <div class="card col-lg-6">
-                                <div class="p-5">
-                                    <div class="text-center">
-                                        <h1 class="h4 text-gray-900 mb-4">¡Bienvenido!</h1>
+    
+                        
+                            <div class="card col-lg-3 ">
+                                <div class="p-5" style="width: 100%;">
+                                    <div class="d-flex justify-content-center">
+                                    <img src="img/logo.png" alt="logo" style="width:60%;">
                                     </div>
+                                    
                                     <?php include("controllers/login.php"); ?>
                                     <form class="user" method="POST" id="login-form">
                                         <div class="form-group">
@@ -53,16 +44,9 @@
                                     </form>
                                 </div>
                             </div>
-                            <div class="col-lg-3"></div>
-                        </div>
-                    </div>
-                </div>
+                   
 
-            </div>
 
-        </div>
-
-    </div>
 
     <!-- Bootstrap core JavaScript-->
     <script src="vendor/jquery/jquery.min.js"></script>

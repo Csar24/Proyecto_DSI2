@@ -37,7 +37,7 @@
         <!-- Sidebar -->
         <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
             <!-- Sidebar - Brand -->
-            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="menu_a.php">
                 <div class="sidebar-brand-icon rotate-n-15">
                     <i class="fas fa-home"></i>
                 </div>
@@ -154,7 +154,7 @@
                     <div class="d-sm-flex mb-4"></div>
                     <!-- Content Row -->
                     <div class="row">
-                        <h3>Tipos de Acceso al Sistema</h3>
+                        <h3 style="width: 100%;text-align:center">Tipos de Acceso al Sistema</h3>
                     </div>
                     <div class="row mt-4">
                         <div class="col-lg-6">

@@ -39,7 +39,7 @@
         <!-- Sidebar -->
         <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
             <!-- Sidebar - Brand -->
-            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="menu_a.php">
                 <div class="sidebar-brand-icon rotate-n-15">
                     <i class="fas fa-home"></i>
                 </div>
@@ -156,10 +156,10 @@
                     <div class="d-sm-flex mb-4"></div>
                     <!-- Content Row -->
                     <div class="row">
-                        <h3>Usuarios del Sistema</h3>
+                        <h3 style="width: 100%;text-align:center">Usuarios del Sistema</h3>
                     </div>
                     <div class="row mt-4">
-                        <div class="col-lg-6">
+                        <div class="col-lg-8">
                             <!--TABLA DE REGISTROS-->
                             <div class="card shadow mb-4">
                                 <div class="card-body">
@@ -203,15 +203,15 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-6">
+                        <div class="col-lg-4">
                             <!---->
                             <div class="card shadow mb-4">
                                 <div class="card-body">
                                     <!--FORMULARIO PARA GUARDAR-->
                                     <form>
                                         <div class="form-group row">
-                                            <label for="inputPassword" class="col-sm-3 col-form-label">Cargo:</label>
-                                            <div class="col-sm-9">
+                                            <label for="inputPassword" class="col-sm-4 col-form-label">Cargo:</label>
+                                            <div class="col-sm-8">
                                                 <select class="form-select form-control" id="accesoUG" aria-label="Default select example">
                                                     <?php foreach ($tiposAcceso as $tp) {
                                                         $id = $tp['id_tipo_acceso'];
@@ -222,26 +222,26 @@
                                             </div>
                                         </div>
                                         <div class="form-group row">
-                                            <label for="inputPassword" class="col-sm-3 col-form-label">Nombre:</label>
-                                            <div class="col-sm-9">
+                                            <label for="inputPassword" class="col-sm-4 col-form-label">Nombre:</label>
+                                            <div class="col-sm-8">
                                                 <input type="text" class="form-control" id="nombreUG">
                                             </div>
                                         </div>
                                         <div class="form-group row">
-                                            <label for="inputPassword" class="col-sm-3 col-form-label">Apellidos:</label>
-                                            <div class="col-sm-9">
+                                            <label for="inputPassword" class="col-sm-4 col-form-label">Apellidos:</label>
+                                            <div class="col-sm-8">
                                                 <input type="text" class="form-control" id="apellidosUG">
                                             </div>
                                         </div>
                                         <div class="form-group row">
-                                            <label for="inputPassword" class="col-sm-3 col-form-label">Usuario:</label>
-                                            <div class="col-sm-9">
+                                            <label for="inputPassword" class="col-sm-4 col-form-label">Usuario:</label>
+                                            <div class="col-sm-8">
                                                 <input type="text" class="form-control" id="usuarioUG">
                                             </div>
                                         </div>
                                         <div class="form-group row">
-                                            <label for="inputPassword" class="col-sm-3 col-form-label">Contraseña:</label>
-                                            <div class="col-sm-9">
+                                            <label for="inputPassword" class="col-sm-4 col-form-label">Contraseña:</label>
+                                            <div class="col-sm-8">
                                                 <input type="password" class="form-control" id="contraUG">
                                             </div>
                                         </div>
